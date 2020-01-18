@@ -9,11 +9,8 @@ function App() {
   return (
     <Router>
       <div className="body-wrapper">
-        <Switch>
-          <Route path="/" component={ Home } /> 
-          <Route path="*/projects" component={ Projects } /> 
-          <Route path="*" component={ Projects } /> 
-        </Switch>
+      <Home /> 
+      <Projects />
       </div>
     </Router>
   );
