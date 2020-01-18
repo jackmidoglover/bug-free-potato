@@ -52,7 +52,6 @@ export default class Home extends Component {
                     </div>
                     </TextContainer>
             </div>
-            <Footer />
             </>
         )
     }
