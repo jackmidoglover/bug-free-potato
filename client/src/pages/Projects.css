@@ -1,0 +1,48 @@
+.grid-container {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.linkBtn{
+    margin-right: 10px;
+    background-color: #eee;
+}
+
+.card {
+    background-color: #eee;
+    
+    margin: 20px 10px 20px 10px;
+}
+
+.portfolio-img {
+    height: 340px;
+    overflow: hidden;
+}
+
+.card-reveal {
+    background-color: #eee;
+    /* color: $moon; */
+    /* font-family: $header-font; */
+    size: 16px;
+}
+
+
+#image {
+    max-height: 75%;
+}
+
+.star {
+    background-color: #4db6ac;
+    /* color: $night; */
+    margin: 0 20px 0 20px;
+    /* height: 60px;  */
+}
+
+.card-action {
+    text-align: center;
+}
+
+
+.card-action {
+    margin-top: 0;
+}
