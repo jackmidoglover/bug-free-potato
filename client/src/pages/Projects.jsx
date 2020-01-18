@@ -10,9 +10,6 @@ export default class Projects extends Component {
     render() {
         return (
             <>
-                <Navbar 
-                    page="Home" 
-                    pageLink="/" /> 
               <div className="container grid-container">
                   <div className="row">
                 {ProjectData.map(project => {
