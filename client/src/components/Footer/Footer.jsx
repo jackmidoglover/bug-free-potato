@@ -14,11 +14,11 @@ const Footer = (props) => {
             </div>
             <div className="col l4 offset-l2 s12">
               <h5 className="white-text center">Links</h5>
-              <ul class="list-inline center">
-            <li><span style={{fontSize: '2' + 'em'}}><a href="https://github.com/jackmidoglover"><i class="fab fa-github"></i> </a></span></li>
-            <li><span style={{fontSize: '2' + 'em'}}><a href="https://www.linkedin.com/in/jackmidoglover/"><i class="fab fa-linkedin-in"></i></a></span></li>
-            <li><span style={{fontSize: '2' + 'em'}}><a href="https://stackoverflow.com/users/8811683/jacq-glover"><i class="fab fa-stack-overflow"></i></a></span></li>
-            <li><span style={{fontSize: '2' + 'em'}}><a href="../../assets/images/Resume.pdf"><i class="far fa-file"></i></a></span></li>
+              <ul className="list-inline center">
+            <li><span style={{fontSize: '2em'}}><a href="https://github.com/jackmidoglover"><i className="fab fa-github"></i> </a></span></li>
+            <li><span style={{fontSize: '2em'}}><a href="https://www.linkedin.com/in/jackmidoglover/"><i className="fab fa-linkedin-in"></i></a></span></li>
+            <li><span style={{fontSize: '2em'}}><a href="https://stackoverflow.com/users/8811683/jacq-glover"><i className="fab fa-stack-overflow"></i></a></span></li>
+            <li><span style={{fontSize: '2em'}}><a href="../../assets/images/Resume.pdf"><i className="far fa-file"></i></a></span></li>
           </ul>
             </div>
           </div>

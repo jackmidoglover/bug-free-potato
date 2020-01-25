@@ -4,7 +4,6 @@ import TextContainer from "../components/TextContainer/TextContainer";
 import Footer from "../components/Footer/Footer";
 import SkillGraph from "../components/SkillGraph/SkillGraph";
 import Timeline from "../components/Timeline/Timeline";
-import Navbar from "../components/Navbar/Navbar";
 import "./Home.css";
 
 export default class Home extends Component {
@@ -12,18 +11,18 @@ export default class Home extends Component {
     render() {
         return (
             <>
-            <Navbar
-                page="Projects"
-                pageLink="/projects" />
             <Hero />
             <div className="main container">
                 <TextContainer 
                     className="s10 offset-s1"> 
                     <h1 className="center mint-text">Howdy!</h1>
-                    <h5 className="center">The name is Jacquelyne, but I go by Jacq for short.</h5>
+                    <div className="heading purple-text">
+                    <h4 className="center">My name is Jacquelyne, but you can call me Jacq.</h4>
+                    </div>
                     <p className="center"> 
                     
-                        <h6><strong>I am a:</strong></h6> 
+                        I am a:
+                        <br />
                     Full-stack MERN developer working in the Denver Area. 
                     <br />
                     Open-minded creative with great problem solving skills. 
@@ -36,7 +35,7 @@ export default class Home extends Component {
                     <div className="row">
                         <div className="col s12 m6">
                         <div className="heading purple-text">
-                            <h4><i class="material-icons heading-icons">grade</i>
+                            <h4><i className="material-icons heading-icons">grade</i>
                             <br /> Skills</h4>
                         </div>
                         <SkillGraph />
@@ -52,6 +51,7 @@ export default class Home extends Component {
                     </div>
                     </TextContainer>
             </div>
+            <Footer />
             </>
         )
     }

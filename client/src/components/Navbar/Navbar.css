@@ -1,7 +1,7 @@
 .brand-logo { 
     font-family: 'Lato', sans-serif;
     font-weight: 400;
-    margin-left: 15px;
+    margin-left: 5px;
 }
 
 .nav-wrapper > img {
@@ -20,4 +20,8 @@
 #sideNav > ul > li.sideNav-links {
     font-family: "Lato", sans-serif;
     font-weight: 900;
+}
+
+.active {
+    background-color: #bdbdbd;
 }
