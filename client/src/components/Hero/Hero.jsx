@@ -16,7 +16,7 @@ const Navbar = (props) => {
             <div className="fog-img fog-img-second"></div>                
             </div>
             <div className="hero-title">
-                    <h2>Developer.  Artist.</h2> <br /> <span> Mountain woman. Moon child. </span>
+                    <h2>{props.title}</h2> <br /> <span>{props.subtext} </span>
                 </div>
         </div>
     )

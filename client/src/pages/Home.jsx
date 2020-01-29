@@ -11,7 +11,9 @@ export default class Home extends Component {
     render() {
         return (
             <>
-            <Hero />
+            <Hero
+            title="Developer. Artist"
+            subtext= "Mountain Woman. Moon child." />
             <div className="main container">
                 <TextContainer 
                     className="s10 offset-s1"> 

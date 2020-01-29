@@ -42,3 +42,11 @@
 .card-action {
     margin-top: 0;
 }
+
+.projects-header > h1 {
+ margin-top: 0;
+ margin-bottom: 60px;
+ font-family: 'Lily Script One', cursive;
+ font-size: 7rem;
+ letter-spacing: 3px;
+}
