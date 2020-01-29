@@ -17,7 +17,8 @@ export default class Projects extends Component {
                         imagePath={project.imagePath}
                         projectLink={project.projectLink}
                         repoLink={project.repoLink}
-                    description={project.description} /> )
+                    description={project.description}
+                    technologies={project.technologies} /> )
                 })}
                 </div>
               </div>

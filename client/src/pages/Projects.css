@@ -21,8 +21,6 @@
 
 .card-reveal {
     background-color: #eee;
-    /* color: $moon; */
-    /* font-family: $header-font; */
     size: 16px;
 }
 
@@ -33,9 +31,7 @@
 
 .star {
     background-color: #4db6ac;
-    /* color: $night; */
     margin: 0 20px 0 20px;
-    /* height: 60px;  */
 }
 
 .card-action {
