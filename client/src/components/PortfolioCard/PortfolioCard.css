@@ -20,7 +20,6 @@
 
 h2.card-title .project-title {
     font-family: "Lato", sans-serif; 
-    /* color: black; */
 }
 
 p.project-description {
@@ -45,4 +44,11 @@ span.tech:last-child::after {
 
 .card-action {
     border-top: none !important;
+}
+
+@media (max-width: 699px) { 
+    .svg-sm{
+            width: 100%;
+            top: 76vh;
+    }
 }
