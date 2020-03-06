@@ -12,7 +12,7 @@ export default class Home extends Component {
         return (
             <>
             <Hero
-            title="Developer. Artist"
+            title="Developer. Artist."
             subtext= "Mountain Woman. Moon child." />
             <div className="main container">
                 <TextContainer 

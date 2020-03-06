@@ -4,7 +4,7 @@ import "./PortfolioCard.css";
 const PortfolioCard = ( props ) => {
     return (
         <div>
-        <div className="col s12 m6">
+        <div className="col s12 m6 l6">
         <div className="card">
           <div className="card-image overlay-container">
             <img className="portfolio-img" src={props.imagePath} alt={props.title} />

@@ -32,6 +32,12 @@
 .star {
     background-color: #4db6ac;
     margin: 0 20px 0 20px;
+    margin-top: 10px;
+}
+
+.star:hover {
+    color: white;
+    background-color: #419990;
 }
 
 .card-action {
@@ -46,7 +52,7 @@
 .projects-header > h1 {
  margin-top: 0;
  margin-bottom: 60px;
- font-family: 'Lily Script One', cursive;
+ font-family: 'Mr Dafoe', cursive;
  font-size: 7rem;
  letter-spacing: 3px;
 }
