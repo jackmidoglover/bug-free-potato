@@ -20,3 +20,7 @@ footer.page-footer {
   a:hover{
     color: #4db6ac;
 }
+
+div.footer-copyright {
+  background-color: #4a148c;
+}

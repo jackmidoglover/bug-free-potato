@@ -49,20 +49,20 @@
 }
 
 #skill-graph #s2 {
-    background-color: #ffb300;
+    background-color: tomato;
     top: 44px;
     /* left: -40px; */
     width: 70%;
 }
 
 #skill-graph #s3 {
-    background-color: #8e24aa;
+    background-color: tomato;
     top: 88px;
     width: 88%;
 }
 
 #skill-graph #s4 {
-    background-color: #4db6ac;
+    background-color: tomato;
     top: 132px;
     width: 75%;
 }
@@ -80,25 +80,25 @@
 }
 
 #skill-graph #s7 {
-    background-color: #8e24aa;
+    background-color: #ffb300;
     top: 264px;
     width: 50%;
 }
 
 #skill-graph #s8 {
-    background-color: #4db6ac;
+    background-color: #8e24aa;
     top: 308px;
     width: 60%;
 }
 
 #skill-graph #s9 {
-    background-color: tomato;
+    background-color: #8e24aa;
     top: 352px;
     width: 30%;
 }
 
 #skill-graph #s10 {
-    background-color: #ffb300;
+    background-color: tomato;
     top: 396px;
     width: 20%;
     padding-left: 0;

@@ -12,12 +12,12 @@ const Navbar = (props) => {
       <ul id="nav-mobile" className="right hide-on-med-and-down">
       <li><NavLink exact to="/" className="purple-text text-darken-4" activeClassName="active"><strong>About</strong></NavLink></li>
         <li><NavLink exact to="/projects" className="purple-text text-darken-4" activeClassName="active"><strong>Projects</strong></NavLink></li>
-        <li><a href="https://www.linkedin.com/in/jackmidoglover/" className="purple-text text-darken-4"><strong>LinkedIn</strong></a></li>
+        <li><a href="https://www.linkedin.com/in/jackmidoglover/" target="_blank" className="purple-text text-darken-4"><strong>LinkedIn</strong></a></li>
       </ul>
       <ul id="mobile-nav" className="right sidenav">
       <li><NavLink exact to="/" className="purple-text text-darken-4" activeClassName="active"><strong>About</strong></NavLink></li>
         <li><NavLink exact to="/projects" className="purple-text text-darken-4" activeClassName="active"><strong>Projects</strong></NavLink></li>
-        <li><a href="https://www.linkedin.com/in/jackmidoglover/" className="purple-text text-darken-4"><strong>LinkedIn</strong></a></li>
+        <li><a href="https://www.linkedin.com/in/jackmidoglover/" target="_blank" className="purple-text text-darken-4"><strong>LinkedIn</strong></a></li>
       </ul>
     </div>
   </nav>
