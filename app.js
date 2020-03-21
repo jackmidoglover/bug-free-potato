@@ -4,7 +4,7 @@ var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 
-var indexRouter = require('./routes/index');
+var routes = require('./routes');
 
 var app = express();
 
@@ -23,7 +23,7 @@ app.use(function(req, res, next) {
   next(createError(404));
 });
 
-app.use('/*', indexRouter);
+app.use(routes);
 
 // error handler
 app.use(function(err, req, res, next) {
