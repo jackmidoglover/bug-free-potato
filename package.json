@@ -9,7 +9,7 @@
     "heroku-postbuild": "cd client && npm i && npm run build"
   },
   "engines": {
-    "node" : ">=12.10"
+    "node" : ">=10.0.0"
   },
   "dependencies": {
     "concurrently": "^5.0.2",
