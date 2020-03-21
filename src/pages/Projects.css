@@ -1,0 +1,59 @@
+.grid-container {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.linkBtn{
+    margin-right: 10px;
+    background-color: #eee;
+}
+
+.card {
+    background-color: #eee;
+    
+    margin: 20px 10px 20px 10px;
+}
+
+.portfolio-img {
+    height: 340px;
+    overflow: hidden;
+}
+
+.card-reveal {
+    background-color: #eee;
+    size: 16px;
+}
+
+
+#image {
+    max-height: 75%;
+}
+
+.star {
+    background-color: #4db6ac;
+    margin: 0 20px 0 20px;
+    margin-top: 10px;
+}
+
+.star:hover {
+    color: white;
+    background-color: #419990;
+}
+
+.card-action {
+    text-align: center;
+}
+
+
+.card-action {
+    margin-top: 0;
+}
+
+.projects-header > h1 {
+    margin-top: 0;
+    margin-bottom: 60px;
+    font-family: 'Mr Dafoe', cursive;
+    font-size: 9rem;
+    letter-spacing: 3px;
+    -webkit-text-stroke: 1px black;
+}

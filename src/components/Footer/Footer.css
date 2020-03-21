@@ -1,0 +1,26 @@
+footer.page-footer {
+    margin-top: 60px;
+}
+
+.list-inline {
+    padding-left: 0;
+    margin-left: -5px;
+    list-style: none;
+  }
+  .list-inline > li {
+    display: inline-block;
+    margin-right: 12px;
+    margin-left: 12px;
+  }
+
+  a {
+      color: white;
+  }
+
+  a:hover{
+    color: #4db6ac;
+}
+
+div.footer-copyright {
+  background-color: #4a148c;
+}

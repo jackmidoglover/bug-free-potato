@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css?family=Mr+Dafoe&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Sacramento&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #e8e8e8;
+  line-height: 1.8;
+  font-size: 18px;
+}
+
+
+h1, h2, h3, h4 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 900;
+}
+
+h5 {
+  font-size: 28px; 
+}
+
+h6 {
+  font-size: 24px;
+}
+
+.dark-purple-text {
+  color: #4a148c;
+}
+
+.mint-text {
+  color: #4db6ac; 
+}
+
+.heading {
+  text-align: center; 
+}
+
+.heading > h4 > i.heading-icons {
+    border: 3px solid #8e24aa;
+    border-radius: 50px;
+    padding: 5px;
+    background-color: #8e24aa;
+    color: white;
+    margin-bottom: 10px;
+}
+
+strong {
+  font-weight: 900;
+}
+
