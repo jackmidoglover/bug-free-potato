@@ -39,9 +39,10 @@
     margin-top: 0;
     margin-bottom: 30px;
     font-family: 'Mr Dafoe', cursive;
-    -webkit-text-stroke: 1px #4a148c;
+    -webkit-text-stroke: 5px #4a148c;
     transform: rotate(-9deg);
     -ms-transform: rotate(-20deg);
+    font-weight: 500;
 }
 
 .hero-title > span {
