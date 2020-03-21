@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "node app.js",
+    "start": "nodemon app.js && cd client && node app.js",
     "dev": "concurrently \"nodemon app.js\" \"cd client && npm start \"",
     "heroku-prebuild": "rm -rf public/ && mkdir public",
     "heroku-postbuild": "cd client && npm i && npm run build"
