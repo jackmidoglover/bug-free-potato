@@ -8,6 +8,9 @@
     "heroku-prebuild": "rm -rf public/ && mkdir public",
     "heroku-postbuild": "cd client && npm i && npm run build"
   },
+  "engines": {
+    "node" : ">=12.10"
+  },
   "dependencies": {
     "concurrently": "^5.0.2",
     "cookie-parser": "~1.4.4",
