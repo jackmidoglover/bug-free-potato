@@ -14,7 +14,6 @@ const Timeline = (props) => {
                                         </svg>
                                     </div>
                                     <div className="col"></div>
-                               
                                 </div>
                                 <div className="time-flex">
                                     <div className="col">
@@ -23,7 +22,6 @@ const Timeline = (props) => {
                                             <br />
                                             Hired as Junior Web Developer at the Denver Center for the Performing Arts
                                         </p>
-
                                         </div>
                                         
                                         <div className="col">
@@ -36,7 +34,6 @@ const Timeline = (props) => {
                                 <div className="time-flex">
                                     <div className="col">
                                 
-
                                     </div>
                                     <div className="col">
                                     <p>
@@ -62,8 +59,6 @@ const Timeline = (props) => {
                                             <strong>August 2018</strong> <br />
                                             Hired as Tutor and Teaching Assistant for Trilogy Education Services
                                         </p>
-
-
                                     </div>
                                     <div className="col">
                                     <svg width="100%" viewBox="0 0 100 100" className="ci-1" preserveAspectRatio="none">
@@ -74,7 +69,6 @@ const Timeline = (props) => {
                                 </div>
                                 <div className="time-flex">
                                     <div className="col">
-
                                     
                                     </div>
                                     <div className="col">
@@ -84,7 +78,6 @@ const Timeline = (props) => {
                                             <br />
                                             Enrolled at Denver University's Coding Bootcamp
                                         </p>
-
                                     </div>
                                 </div>
                                 

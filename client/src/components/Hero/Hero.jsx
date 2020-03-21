@@ -6,7 +6,6 @@ const Navbar = (props) => {
         <div className="fog">
             <div className="s12 hero-gradient">
                 
-               
             </div>
             <div className="fog-container">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none" className="svg-triangle">

@@ -24,7 +24,6 @@ const PortfolioCard = ( props ) => {
             <polygon class="svg--lg" fill="#ebebeb" points="0,0 15,100 33,21 45,100 50,75 55,100 72,20 85,100 95,50 100,80 100,100 0,100" />
             </svg>
           </div>
-     
           <div className="card-action">
     <a className="btn-large star" href={props.projectLink}>Open</a>
     <a className="btn-large star" href={props.repoLink}><i className="material-icons left">code</i>See Code</a>
