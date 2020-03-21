@@ -26,13 +26,6 @@ app.use(function(req, res, next) {
 
 app.use('/', indexRouter);
 
-// app.get('/*', function(_, res) {
-//   res.sendFile(path.join(__dirname, '/client/build/index.html'), function(err) {
-//     if (err) {
-//       res.status(500).send(err)
-//     }
-//   })
-// })
 
 
 // error handler
