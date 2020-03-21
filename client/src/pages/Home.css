@@ -58,7 +58,7 @@
 #skill-graph #s3 {
     background-color: tomato;
     top: 88px;
-    width: 88%;
+    width: 73%;
 }
 
 #skill-graph #s4 {
@@ -97,12 +97,6 @@
     width: 30%;
 }
 
-#skill-graph #s10 {
-    background-color: tomato;
-    top: 396px;
-    width: 20%;
-    padding-left: 0;
-}
 
 .time-box {
     position: relative;

@@ -50,11 +50,6 @@ const SkillGraph = () => {
                                         <span className="skill-label">MySQL</span>
                                         </td>
                                     </tr>
-                                    <tr className="skill" id="s10">
-                                        <td className="percentage">
-                                        <span className="skill-label">Angular</span>
-                                        </td>
-                                    </tr>
                                 </tbody>
                             </table>
                         </div>
