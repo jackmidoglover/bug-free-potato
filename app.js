@@ -1,9 +1,6 @@
-var createError = require('http-errors');
 var express = require('express');
 var path = require('path');
-var cookieParser = require('cookie-parser');
 var logger = require('morgan');
-
 var routes = require('./routes');
 
 var app = express();
@@ -14,14 +11,7 @@ var PORT = process.env.PORT || "8000";
 app.use(logger('dev'));
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
-app.use(cookieParser());
 app.use(express.static(path.join(__dirname, "/client/build")));
-
-
-// catch 404 and forward to error handler
-app.use(function(req, res, next) {
-  next(createError(404));
-});
 
 app.use(routes);
 
@@ -36,7 +26,7 @@ app.use(function(err, req, res, next) {
   res.json({ error: err })
 });
 
-app.listen(process.env.PORT || "8000", () => {
+app.listen(process.env.PORT || PORT, () => {
   console.log("✨ You're cooking with gas now girlie ✨");
 })
 module.exports = app;
