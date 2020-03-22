@@ -2,11 +2,15 @@
   "name": "jacq-portfolio-2020",
   "version": "0.0.0",
   "private": true,
+  "proxy": "http://localhost:8000",
   "scripts": {
-    "start": "node app.js",
-    "dev": "concurrently \"nodemon app.js\" \"cd client && npm start \"",
+    "start": "node app.js && react-scripts start",
+    "dev": "concurrently \"nodemon app.js\" \"react-scripts start \"",
     "heroku-prebuild": "rm -rf public/ && mkdir public",
-    "heroku-postbuild": "cd client && npm i && npm run build"
+    "heroku-postbuild": "npm i && npm run build",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
   "engines": {
     "node": ">=10.0.0"
@@ -18,9 +22,34 @@
     "express": "~4.16.1",
     "hbs": "^4.1.0",
     "http-errors": "~1.6.3",
-    "morgan": "~1.9.1"
+    "morgan": "~1.9.1",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.4.0",
+    "@testing-library/user-event": "^7.2.1",
+    "http-proxy-middleware": "^0.20.0",
+    "materialize-css": "^1.0.0-rc.2",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-materialize": "^3.5.9",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.4.0"
   },
   "devDependencies": {
     "nodemon": "^2.0.2"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
