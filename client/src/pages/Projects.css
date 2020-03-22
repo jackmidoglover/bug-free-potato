@@ -40,6 +40,19 @@
     background-color: #419990;
 }
 
+.star-ghost {
+    background-color: #e8e8e8;
+    border: 2px solid #419990;
+    color: #419990;
+}
+
+.star-ghost {
+    background-color: #419990;
+    border: 2px solid #419990;
+    color: #e8e8e8;
+
+}
+
 .card-action {
     text-align: center;
 }
