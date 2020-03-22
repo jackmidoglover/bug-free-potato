@@ -4,9 +4,7 @@
   "private": true,
   "proxy": "http://localhost:8000",
   "scripts": {
-    "client-install": "npm install --prefix client",
     "start": "node app.js",
-    "client": "react-scripts start --prefix client",
     "dev": "concurrently \"nodemon app.js\" \"react-scripts start \"",
     "heroku-prebuild": "rm -rf public/ && mkdir public",
     "heroku-postbuild": "cd client && npm i && cd client && npm run build",
