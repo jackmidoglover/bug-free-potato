@@ -12,7 +12,7 @@ export default class Projects extends Component {
             <>
                 <Hero
                     title="Projects" />
-                <div className="container grid-container">
+                <div className="container-fluid grid-container">
                     <div className="row">
                         {ProjectData.map(project => {
                             return (<PortfolioCard
