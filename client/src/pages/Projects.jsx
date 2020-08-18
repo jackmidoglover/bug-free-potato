@@ -14,7 +14,7 @@ export default class Projects extends Component {
                     title="Projects" />
                 <div className="container">
                     <div className="row">
-                        {ProjectData.map(project => {
+                        {ProjectData.reverse().map(project => {
                             return (<PortfolioCard
                                 title={project.title}
                                 imagePath={project.imagePath}

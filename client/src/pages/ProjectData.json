@@ -41,6 +41,39 @@
     },
     {
         "id": 3,
+        "title": "Bike Right Back", 
+        "description": "Voted the most socially conscious app two times in a row! Bike Right Back utilizes handlebars, postgresSQL, express, and node to provide a theft-prevention and recovery application for bicyclists everywhere. Users can search an area to see how many bikes have been reported stolen in that vicinity, allowing them to decide if they should ride their bike there. They can also create an account, register their bike with the Bike Right Back database, and if they report their bike stolen it will appear on the front page as an alert!",
+        "repoLink": "https://github.com/jackmidoglover/brbproject2",
+        "projectLink": "https://radiant-wildwood-96056.herokuapp.com/",
+        "technologies": [{
+            "name": "CSS",
+            "percent": 6.9
+        }, 
+        {
+            "name": "HTML",
+            "percent": 78.3
+        },
+        {
+            "name": "JavaScript",
+            "percent": 14.8
+        },
+        {
+            "name": "Node"
+        },
+        {
+            "name": "Express"
+        },
+        {
+            "name": "Handlebars"
+        },
+        {
+            "name": "PostgresSQL"
+        }
+    ],
+        "imagePath": "/assets/images/brbicon.png"
+    },
+    {
+        "id": 4,
         "title": "D&D Scraper", 
         "description": "This handlebars based application utilizes two node packages (axios and cheerio) to allow users to scrape two separate D&D related news sites for the most recent articles, and saves those articles to the database. Users can also comment on articles.",
         "repoLink": "https://github.com/jackmidoglover/dndScraper",
@@ -76,7 +109,7 @@
         "imagePath": "/assets/images/dnd.png"
     },
     {
-        "id": 4,
+        "id": 5,
         "title": "Remington Memory Game", 
         "description": "A React application memory game! Users click on different paintings done by Frederic Remington. Clicking on different images increments their score, clicking on the same image causes them to lose and resets their score. (It takes a moment to load).",
         "repoLink": "https://github.com/jackmidoglover/react_memory_game",
@@ -104,39 +137,6 @@
         }
     ],
         "imagePath": "/assets/images/moonwolf.jpg"
-    },
-    {
-        "id": 5,
-        "title": "Bike Right Back", 
-        "description": "Voted the most socially conscious app two times in a row! Bike Right Back utilizes handlebars, postgresSQL, express, and node to provide a theft-prevention and recovery application for bicyclists everywhere. Users can search an area to see how many bikes have been reported stolen in that vicinity, allowing them to decide if they should ride their bike there. They can also create an account, register their bike with the Bike Right Back database, and if they report their bike stolen it will appear on the front page as an alert!",
-        "repoLink": "https://github.com/jackmidoglover/brbproject2",
-        "projectLink": "https://radiant-wildwood-96056.herokuapp.com/",
-        "technologies": [{
-            "name": "CSS",
-            "percent": 6.9
-        }, 
-        {
-            "name": "HTML",
-            "percent": 78.3
-        },
-        {
-            "name": "JavaScript",
-            "percent": 14.8
-        },
-        {
-            "name": "Node"
-        },
-        {
-            "name": "Express"
-        },
-        {
-            "name": "Handlebars"
-        },
-        {
-            "name": "PostgresSQL"
-        }
-    ],
-        "imagePath": "/assets/images/brbicon.png"
     },
     {
         "id": 6,
