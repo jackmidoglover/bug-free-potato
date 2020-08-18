@@ -18,7 +18,7 @@ const Footer = (props) => {
             <li><span style={{fontSize: '2em'}}><a href="https://github.com/jackmidoglover"><i className="fab fa-github"></i> </a></span></li>
             <li><span style={{fontSize: '2em'}}><a href="https://www.linkedin.com/in/jackmidoglover/"><i className="fab fa-linkedin-in"></i></a></span></li>
             <li><span style={{fontSize: '2em'}}><a href="https://stackoverflow.com/users/8811683/jacq-glover"><i className="fab fa-stack-overflow"></i></a></span></li>
-            <li><span style={{fontSize: '2em'}}><a href="/assets/images/Resume.pdf"><i className="far fa-file"></i></a></span></li>
+            <li><span style={{fontSize: '2em'}}><a href="/assets/images/Jacquelyne-Glover-Resume-Aug-2020.pdf"><i className="far fa-file"></i></a></span></li>
           </ul>
             </div>
           </div>
