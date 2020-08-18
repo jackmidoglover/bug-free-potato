@@ -70,4 +70,12 @@ span.tech:last-child::after {
             width: 100%;
             top: 76vh;
     }
+
+    .overlay-container .overlay {
+        opacity: 1;
+    }
+
+    .colorBlock {
+        height: 336px;
+    }
 }
