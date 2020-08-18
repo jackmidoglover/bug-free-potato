@@ -46,7 +46,11 @@
 .star-ghost:hover {
     background-color: #8e24aa;
     color: #e8e8e8;
+}
 
+.star-ghost:focus {
+    background-color: #8e24aa;
+    color: #e8e8e8;
 }
 
 .card-action {
