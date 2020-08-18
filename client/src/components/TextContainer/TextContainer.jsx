@@ -3,7 +3,7 @@ import "./TextContainer.css";
 
 const TextContainer = (props) => {
     return (
-      <div className={props.class + " text-container"}>
+      <div className={props.classy + " text-container"}>
           {props.children}
       </div>
     )

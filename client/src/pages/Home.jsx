@@ -16,15 +16,15 @@ export default class Home extends Component {
             subtext= "Mountain Woman. Moon child." />
             <div className="main container">
                 <TextContainer 
-                    className="s10 offset-s1"> 
+                    className="s10 offset-s1" 
+                    classy="s12"> 
                     <h1 className="center mint-text">Howdy!</h1>
                     <div className="heading purple-text">
                     <h4 className="center">My name is Jacquelyne, but you can call me Jacq. I am a:</h4>
                     </div>
-                    <p className="center"> 
                     
                         
-                        
+                    <div className="center">
                     <ul className="pretty-bullets">
                         <li>
                             Full-stack MERN developer working in the Denver Area. 
@@ -42,8 +42,8 @@ export default class Home extends Component {
                             A patient, empathetic, team-oriented person.
                         </li>
                     </ul>
+                    </div>    
 
-                    </p>
                     <div className="row">
                         <div className="col s12 m6">
                         <div className="heading purple-text">

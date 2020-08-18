@@ -118,24 +118,24 @@
 
     .svg-sm {
         width: 100%;
-        top: 79vh;
+        top: 77vh;
     }
 
     .svg-triangle {
-        top: 74vh;
+        top: 74.5vh;
     }
 
     .hero-title {
         position: relative; 
         top: 0; 
-        left: 13vw;
-        width: 75%;
+        left: 16vw;
+        width: 70%;
         text-align: center;
         margin-right: 0;
     }
 
     .hero-title > h2 {
-        font-size: 6rem;
+        font-size: 5rem;
     }
 
     .hero-title > span {

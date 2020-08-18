@@ -174,3 +174,26 @@ ul.pretty-bullets > li:before {
     background-position: center;
     color: #4db6ac;
 }
+
+@media (max-width: 699px) {
+    #skill-graph tr, #skill-graph th, #skill-graph td {
+    width: 500px;
+    }
+
+    /* svg {
+        display: none;
+    } */
+
+    .time-flex {
+        display: inline-block;
+    }
+
+    div.mobile-hide {
+        display: none;
+    }
+
+    .time-box > svg.mobile-move-svg {
+        position: absolute; 
+        left: -12% !important;
+    }
+}

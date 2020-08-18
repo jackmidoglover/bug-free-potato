@@ -7,7 +7,7 @@ const Navbar = (props) => {
       <nav>
         <div className="nav-wrapper grey lighten-2">
           <img src="./assets/images/crystal.svg" alt="Crystal" /><a href="/" className="brand-logo purple-text text-darken-4">Jacq Glover</a>
-          <a href="#" data-target="mobile-nav" class="sidenav-trigger right"><i class="material-icons">menu</i></a>
+          <a href="#" data-target="mobile-nav" className="sidenav-trigger right"><i className="material-icons">menu</i></a>
 
           <ul id="nav-mobile" className="right hide-on-med-and-down">
             <li>

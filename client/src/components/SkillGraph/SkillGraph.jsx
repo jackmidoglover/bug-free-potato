@@ -3,7 +3,7 @@ import React, { Component } from "react";
 export default class SkillGraph extends Component {
     state = {
         buttonTextState: true,
-        buttonTextOne: "Hate skill graphs?",
+        buttonTextOne: "Hate graphs?",
         buttonTextTwo: "Here ya go!",
         copied: false, 
         copyTextOne: "Copy", 
@@ -87,6 +87,7 @@ export default class SkillGraph extends Component {
                     <div className={(this.state.buttonTextState ? "hide" : "show")}>
                     <form>
                         <textarea 
+                            readOnly={true}
                             ref={(textarea) => this.textArea = textarea}
                             value="HTML5, CSS3, JavaScript ES5 &amp; ES6, React, Wordpress, Node, Express, Mongo, MySQL, Email Development, Google Analytics" />
                     </form>
