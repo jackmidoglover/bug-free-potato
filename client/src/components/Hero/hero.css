@@ -118,23 +118,24 @@
 
     .svg-sm {
         width: 100%;
-        top: 83vh;
+        top: 79vh;
     }
 
     .svg-triangle {
-        top: 83vh;
+        top: 74vh;
     }
 
     .hero-title {
         position: relative; 
         top: 0; 
-        left: 5vw;
-        width: 93%;
+        left: 13vw;
+        width: 75%;
         text-align: center;
+        margin-right: 0;
     }
 
     .hero-title > h2 {
-        font-size: 7rem;
+        font-size: 6rem;
     }
 
     .hero-title > span {
@@ -143,19 +144,19 @@
     }
 
     .fog-container {
-    height: 90vh;
+    height: 80vh;
     }
 
     .fog-img-first {
-            height: 90vh;
+        height: 80vh;
     }
 
     .fog-img-second {
-        height: 90vh;
+        height: 80vh;
 }
 
     .hero-gradient {
-        height: 90vh;
+        height: 80vh;
         margin-bottom: 50px;
         width: 100%;
     }
