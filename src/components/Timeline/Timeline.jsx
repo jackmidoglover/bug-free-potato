@@ -56,8 +56,8 @@ const Timeline = (props) => {
                                 <div className="time-flex">
                                     <div className="col">
                                     <p>
-                                            <strong>August 2018</strong> <br />
-                                            Hired as Tutor and Teaching Assistant for Trilogy Education Services
+                                            <strong>July 2018</strong> <br />
+                                            Graduated University of Denver's Coding Boot Camp
                                         </p>
                                     </div>
                                     <div className="col">
@@ -76,7 +76,7 @@ const Timeline = (props) => {
                                         <p>
                                             <strong>January 2018 </strong>
                                             <br />
-                                            Enrolled at Denver University's Coding Bootcamp
+                                            Enrolled at University of Denver's Coding Bootcamp
                                         </p>
                                     </div>
                                 </div>
