@@ -9,7 +9,7 @@
     "dev": "concurrently \"react-scripts start\"",
     "build": "react-scripts build",
     "heroku-prebuild": "rm -rf public/ && mkdir public",
-    "heroku-postbuild": "react-scripts build",
+    "heroku-postbuild": "cd client && npm i && npm run build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
