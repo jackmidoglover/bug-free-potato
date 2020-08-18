@@ -7,7 +7,7 @@
     height: 80vh;
     width: 99vw;
     z-index: 0;
-    background-image: linear-gradient(rgba(128, 203, 196, 0.8) , rgba(123, 31, 162, 0.6)), url("/assets/images/foggy-forest.jpg");
+    background-image: linear-gradient(rgba(152, 251, 152, 0.8) , rgba(123, 31, 162, 0.6)), url("/assets/images/foggy-forest.jpg");
     background-position: 50%;
     background-repeat: no-repeat;
     background-size: cover;
