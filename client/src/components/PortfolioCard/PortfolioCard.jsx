@@ -3,15 +3,18 @@ import "./PortfolioCard.css";
 
 const PortfolioCard = ( props ) => {
     return (
-        <div>
+        <div className="projectCard">
         <div className="col s12 m6 l4">
         <div className="card">
           <div className="card-image overlay-container">
-            <img className="portfolio-img" src={props.imagePath} alt={props.title} />
+            {/* <img className="portfolio-img" src={props.imagePath} alt={props.title} /> */}
+            <div className="colorBlock">
+            <h3 className="project-title center white-text">{props.title}</h3>
+            </div>
             <div className="overlay">
               <div className="portfolio-text">
-            <h3 className="project-title center dark-purple-text">{props.title}</h3>
-              <p className="project-description center"><strong>Tech Stack:</strong>
+              <h3 className="project-title center white-text">{props.title}</h3>
+              <p className="project-description center"> 
               {props.technologies.map(technology => 
                 { return <span className="tech" key={props.id + 245}> {technology.name}</span>
                 }
@@ -25,8 +28,8 @@ const PortfolioCard = ( props ) => {
             </svg>
           </div>
           <div className="card-action">
-    <a className="btn-large star" href={props.projectLink}>Open</a>
-    <a className="btn-large star" href={props.repoLink}><i className="material-icons left">code</i>See Code</a>
+    <a className="btn star" href={props.projectLink}>Open</a>
+    <a className="btn star-ghost" href={props.repoLink}><i className="material-icons left">code</i>See Code</a>
           </div>
         </div>
       </div>

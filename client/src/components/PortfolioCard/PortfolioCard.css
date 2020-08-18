@@ -11,7 +11,26 @@
     height: 100%; 
     opacity: 0;
     transition: .5 ease;
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(255, 255, 255, 0);
+    padding-top: 20px;
+    color: white;
+}
+
+.colorBlock {
+    padding-top: 20px;
+    width: 100%; 
+    height: 360px;
+}
+
+div.projectCard .colorBlock {
+    background-image: linear-gradient(#C71585, tomato);
+}
+div.projectCard:nth-child(2n) .colorBlock {
+    background-image: linear-gradient(orange, #ffb300);
+}
+
+div.projectCard:nth-child(4) .colorBlock {
+    background-image: linear-gradient(purple, #8e24aa);
 }
 
 .overlay-container:hover .overlay {
