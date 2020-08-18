@@ -21,7 +21,7 @@ var path = require('path');
 
 router.get('*', function(req, res, next) {
     console.log("HELLO");
-  res.sendFile(path.join(__dirname, '/client/build/index.html'), function(err) {
+  res.sendFile(path.join(__dirname, '../client/build/index.html'), function(err) {
         if (err) {
            res.status(500).send(err)
         }
