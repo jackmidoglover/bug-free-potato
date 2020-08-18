@@ -147,3 +147,30 @@ textarea {
     border: 1px solid #8e24aa;
     background-color: #f2f1f1;
 }
+
+ul.pretty-bullets {
+    display:inline-block;
+    padding:0.5em;
+    padding-left:2em;
+    margin:0.5em;
+  }
+
+ul.pretty-bullets > li:before {
+    clear: left;
+    content:"";
+    height:1em;
+    width:1em;
+    display:block;
+    float:left;
+    margin-left:-2em;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size: 100%;
+}
+
+ul.pretty-bullets > li:before {
+    background-image: url("/assets/images/crescent.svg");
+    background-size: 1em;
+    background-position: center;
+    color: #4db6ac;
+}

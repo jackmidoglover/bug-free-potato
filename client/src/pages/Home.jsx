@@ -19,19 +19,29 @@ export default class Home extends Component {
                     className="s10 offset-s1"> 
                     <h1 className="center mint-text">Howdy!</h1>
                     <div className="heading purple-text">
-                    <h4 className="center">My name is Jacquelyne, but you can call me Jacq.</h4>
+                    <h4 className="center">My name is Jacquelyne, but you can call me Jacq. I am a:</h4>
                     </div>
                     <p className="center"> 
                     
-                        I am a:
-                        <br />
-                    Full-stack MERN developer working in the Denver Area. 
-                    <br />
-                    Open-minded creative with great problem solving skills. 
-                    <br /> 
-                    Dogged debugger, obsessive tester-of-things. 
-                    <br />
-                    A patient, empathetic, team-oriented person.
+                        
+                        
+                    <ul className="pretty-bullets">
+                        <li>
+                            Full-stack MERN developer working in the Denver Area. 
+                        </li>
+                        
+                        <li>
+                            Open-minded creative with great problem solving skills. 
+                        </li>
+                        
+                        <li>
+                            Dogged debugger, obsessive tester-of-things. 
+                        </li>
+                        
+                        <li>
+                            A patient, empathetic, team-oriented person.
+                        </li>
+                    </ul>
 
                     </p>
                     <div className="row">
